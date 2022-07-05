@@ -1,0 +1,15 @@
+{
+    "name": "galette-plugin-helloasso",
+    "description": "HelloAsso plugin for Galette",
+    "type": "library",
+    "require": {
+        "laminas/laminas-http": "^2.15"
+    },
+    "license": "GPL3",
+    "authors": [
+        {
+            "name": "Florian Hatat"
+        }
+    ],
+    "minimum-stability": "stable"
+}

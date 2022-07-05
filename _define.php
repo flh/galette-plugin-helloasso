@@ -16,6 +16,11 @@ $this->register(
 	'2022-07-05',
 	// Routes ACL
 	[
+		'helloasso_checkout' => 'member',
+		'helloasso_payment_return' => 'member',
+		'helloasso_payment_error' => 'member',
+		'helloasso_settings' => 'admin',
+		'helloasso_settings_save' => 'admin',
 	]
 );
 

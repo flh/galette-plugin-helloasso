@@ -19,3 +19,6 @@ $this->register(
 	]
 );
 
+$this->setCsrfExclusions([
+	    '/helloasso_notify/',
+]);

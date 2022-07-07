@@ -73,4 +73,9 @@ class CheckoutController extends AbstractPluginController
 	{
 		return $response;
 	}
+
+	public function payment_cancel(Request $request, Response $response) : Response
+	{
+		return $response;
+	}
 }

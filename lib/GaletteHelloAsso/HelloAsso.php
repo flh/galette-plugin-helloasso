@@ -27,8 +27,7 @@ class HelloAsso {
 
 	private $zdb;
 
-	private $prices = array();
-	private $inactives = array();
+	private $amounts = array();
 
 	private $loaded = false;
 	private $amounts_loaded = false;
@@ -46,7 +45,6 @@ class HelloAsso {
 		$this->loaded = false;
 		$this->prices = array();
 		$this->inactives = array();
-		$this->id = null;
 		$this->load();
 	}
 

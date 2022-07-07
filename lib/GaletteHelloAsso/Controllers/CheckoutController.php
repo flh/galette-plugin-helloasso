@@ -26,6 +26,10 @@ class CheckoutController extends AbstractPluginController
 	 */
 	protected $module_info;
 
+	public function checkout_form(Request $request, Response $response) : Response
+	{
+	}
+
 	public function checkout(Request $request, Response $response) : Response
 	{
 		// FIXME
